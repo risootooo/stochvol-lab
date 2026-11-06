@@ -1,6 +1,6 @@
 # StochVol Lab
 
-![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue) ![release](https://img.shields.io/github/v/release/risootooo/stochvol-lab)
 ![Tests](https://img.shields.io/badge/tests-17%20passing-brightgreen)
 ![Data](https://img.shields.io/badge/data-real%20NSE%20bhavcopy-orange)
 ![Models](https://img.shields.io/badge/models-Heston%20%C2%B7%20SABR%20%C2%B7%20SVI-purple)
