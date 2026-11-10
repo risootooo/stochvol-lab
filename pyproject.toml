@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stochvollab"
+version = "1.0.0"
+description = "Stochastic-volatility models from scratch: Heston (little-trap characteristic function, Gil-Pelaez pricing), lognormal SABR and raw SVI, calibrated to the real NIFTY implied-volatility smile from NSE bhavcopy data."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.26", "pandas>=2.0", "scipy>=1.11"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
